@@ -1,44 +1,4 @@
-/*----------------------------------------------------
-@File: Default Styles
-@Author: Rocky Ahmed
-@URL: http://wethemez.com
-Author E-mail: rockybd1995@gmail.com
 
-This file contains the styling for the actual theme, this
-is the file you need to edit to change the look of the
-theme.
----------------------------------------------------- */
-/*=====================================================================
-@Template Name: Express
-@Author: Rocky Ahmed
-@Developed By: Rocky Ahmed
-@Developer URL: http://rocky.wethemez.com
-Author E-mail: rockybd1995@gmail.com
-
-@Default Styles
-
-Table of Content:
-01/ Variables
-02/ predefin
-03/ header
-04/ slider
-05/ photography
-06/ button 
-07/ work 
-08/ team
-09/ contact 
-10/ price 
-11/ portfolio 
-12/ blog 
-13/ sidebar  
-13/ page-header  
-13/ project  
-13/ we-dope  
-13/ progress
-13/ comingsoon
-13/ error
-13/ footer
-=====================================================================*/
 /*----------------------------------------------------*/
 /*font Variables*/
 /*Color Variables*/
@@ -214,9 +174,9 @@ i:before {
   line-height: 63px;
 }
 
-.main_header_area .header_menu.affix .navbar.navbar-default .navbar-header .navbar-brand img {
+/* .main_header_area .header_menu.affix .navbar.navbar-default .navbar-header .navbar-brand img {
   width: 85%;
-}
+} */
 
 .main_header_area .header_menu.affix .navbar.navbar-default .nav.navbar-nav > li > a {
   line-height: 70px;
@@ -227,7 +187,8 @@ i:before {
 }
 
 .color_menu .header_top {
-  background: #681F43;
+  background: linear-gradient(37deg, rgba(115,0,0,1) 0%, rgba(0,0,94,1) 100%); /* w3c */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00005E', endColorstr='#730000',GradientType=0 ); /* ie6-9 */
 }
 
 .color_menu .header_top .header_top_inner .pull-left a {
@@ -1665,7 +1626,8 @@ i:before {
 
 .business_box_item .business_image:before {
   content: "";
-  background: rgba(65, 22, 47, 0.8);
+  background: linear-gradient(37deg, rgba(115,0,0,1) 0%, rgba(0,0,94,0.73) 68%, rgba(0,0,94,0.6) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00005E', endColorstr='#730000',GradientType=0 );
   position: absolute;
   left: 0px;
   top: 0px;
@@ -1682,6 +1644,7 @@ i:before {
   -o-transition: all 400ms linear 0s;
   transition: all 400ms linear 0s;
   display: block;
+  opacity: .5;
 }
 
 .business_box_item .business_image img {
@@ -1853,7 +1816,8 @@ i:before {
 
 .practice_item .practice_image:before {
   content: "";
-  background: rgba(65, 22, 47, 0.8);
+  background: linear-gradient(37deg, rgba(115,0,0,1) 0%, rgba(0,0,94,0.73) 68%, rgba(0,0,94,0.6) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00005E', endColorstr='#730000',GradientType=0 );
   position: absolute;
   left: 0px;
   top: 0px;
@@ -1952,7 +1916,8 @@ i:before {
 
 .company_item .company_image .company_img:before {
   content: "";
-  background: rgba(65, 22, 47, 0.8);
+  background: linear-gradient(37deg, rgba(115,0,0,1) 0%, rgba(0,0,94,0.73) 68%, rgba(0,0,94,0.6) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00005E', endColorstr='#730000',GradientType=0 );
   position: absolute;
   left: 0px;
   top: 0px;
@@ -4058,7 +4023,7 @@ i:before {
 }
 
 .manager_area .our_about_left_content {
-  padding-top: 90px;
+  padding-top: 10px;
   padding-left: 40px;
   padding-right: 0px;
 }
@@ -4073,7 +4038,7 @@ i:before {
 
 .manager_image {
   margin-right: -50px;
-  padding: 94px 0
+  padding: 10px 0
 }
 
 .manager_image img {
@@ -5068,7 +5033,8 @@ i:before {
 
 .cases_item .cases_image:before {
   content: "";
-  background: rgba(65, 22, 47, 0.8);
+  background: linear-gradient(37deg, rgba(115,0,0,1) 0%, rgba(0,0,94,0.73) 68%, rgba(0,0,94,0.6) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00005E', endColorstr='#730000',GradientType=0 );
   width: 100%;
   position: absolute;
   left: 0px;
@@ -5087,7 +5053,8 @@ i:before {
 
 .cases_item .cases_image .cases_before:before {
   content: "";
-  background: rgba(65, 22, 47, 0.8);
+  background: linear-gradient(37deg, rgba(115,0,0,1) 0%, rgba(0,0,94,0.73) 68%, rgba(0,0,94,0.6) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00005E', endColorstr='#730000',GradientType=0 );
   position: absolute;
   left: 0px;
   top: 0px;
@@ -5208,7 +5175,8 @@ i:before {
 }
 
 .black_cases_area .cases_item .cases_image:before {
-  background: rgba(65, 22, 47, 0.8);
+  background: linear-gradient(37deg, rgba(115,0,0,1) 0%, rgba(0,0,94,0.73) 68%, rgba(0,0,94,0.6) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00005E', endColorstr='#730000',GradientType=0 );
 }
 
 .black_cases_area .cases_item p {
@@ -5246,7 +5214,8 @@ i:before {
 }
 
 .black_cases_area.white_cases .cases_item .cases_image:before {
-  background: rgba(65, 22, 47, 0.8);
+  background: linear-gradient(37deg, rgba(115,0,0,1) 0%, rgba(0,0,94,0.73) 68%, rgba(0,0,94,0.6) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00005E', endColorstr='#730000',GradientType=0 );
 }
 
 .black_cases_area.white_cases .cases_item h5 {
@@ -5426,7 +5395,8 @@ i:before {
   top: 0px;
   width: 0%;
   height: 100%;
-  background: rgba(65, 22, 47, 0.8);
+  background: linear-gradient(37deg, rgba(115,0,0,1) 0%, rgba(0,0,94,0.73) 68%, rgba(0,0,94,0.6) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00005E', endColorstr='#730000',GradientType=0 );
   z-index: 1;
   -webkit-transition: all 400ms linear 0s;
   -o-transition: all 400ms linear 0s;
@@ -5513,7 +5483,8 @@ i:before {
 
 .workers_item .workers_img:before {
   content: "";
-  background: rgba(65, 22, 47, 0.8);
+  background: linear-gradient(37deg, rgba(115,0,0,1) 0%, rgba(0,0,94,0.73) 68%, rgba(0,0,94,0.6) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00005E', endColorstr='#730000',GradientType=0 );
   position: absolute;
   left: 0px;
   top: 0px;
@@ -5645,7 +5616,8 @@ i:before {
 
 .what_customer_inner .what_customer_item .what_customer_img:before {
   content: "";
-  background: rgba(65, 22, 47, 0.8);
+  background: linear-gradient(37deg, rgba(115,0,0,1) 0%, rgba(0,0,94,0.73) 68%, rgba(0,0,94,0.6) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00005E', endColorstr='#730000',GradientType=0 );
   position: absolute;
   left: 0px;
   top: 0px;
@@ -6049,8 +6021,8 @@ i:before {
 /* Footer Area css
 ============================================================================================ */
 .footer_area {
-  background: #29282e;
-  padding-top: 80px;
+  background: #212025;
+  /* padding-top: 80px; */
 }
 
 .footer_widget {
@@ -6086,6 +6058,7 @@ i:before {
 .about_widget img {
   max-width: 100%;
 }
+
 
 .about_widget p {
   font-size: 16px;
@@ -6247,4 +6220,268 @@ i:before {
 ============================================================================================ */
 /*---------------------------------------------------- */
 
+.tedris-img{
+  padding: 100px 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
 /*# sourceMappingURL=style.css.map */
+
+
+
+/* swiper */
+.swiper-container {
+  padding: 0;
+  height: 700px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+@media screen and (max-width: 768px) {
+  .swiper-container {
+    height: 500px;
+  }
+}
+.swiper-slide {
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.swiper-slide:after {
+  content: "";
+  background-image: linear-gradient(0deg, black, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1));
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  z-index: 1;
+  opacity: 0.3;
+}
+
+.swiper-slide:before {
+  content: "";
+  background-color: rgba(69, 69, 78, 0.2);
+  background-image: linear-gradient(180deg, rgba(255, 234, 213, 0.3), rgba(241, 244, 255, 0.3));
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  z-index: 1;
+}
+
+/* swiper arrows */
+.swiper-button-prev,
+.swiper-button-next {
+  width: 50px;
+  height: 50px;
+  background-image: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.swiper-button-prev {
+  left: 30px;
+}
+
+.swiper-button-next {
+  right: 30px;
+}
+
+.swiper-button-prev span,
+.swiper-button-next span {
+  width: 10px;
+  height: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  position: absolute;
+  border: solid 2px white;
+  border-left: 0;
+  border-bottom: 0;
+  transition: all 0.3s ease;
+}
+
+.swiper-button-prev span {
+  transform: rotate(-135deg);
+  left: 50%;
+}
+
+.swiper-button-next span {
+  transform: rotate(45deg);
+  right: 50%;
+}
+
+.swiper-button-prev span:after,
+.swiper-button-next span:after {
+  content: "";
+  position: absolute;
+  background-color: white;
+  width: 0px;
+  height: 2px;
+  transition: all 0.3s ease;
+  transform: rotate(-45deg);
+}
+
+.swiper-button-prev:hover span {
+  left: 30%;
+}
+
+.swiper-button-next:hover span {
+  right: 30%;
+}
+
+.swiper-button-prev:hover span:after,
+.swiper-button-next:hover span:after {
+  width: calc(20px - 4px);
+}
+
+/* swiper arrows mobile */
+@media screen and (max-width: 768px) {
+  .swiper-button-prev {
+    left: 0px;
+  }
+
+  .swiper-button-next {
+    right: 0px;
+  }
+
+  .swiper-button-prev:hover span {
+    left: 50%;
+  }
+
+  .swiper-button-next:hover span {
+    right: 50%;
+  }
+
+  .swiper-button-prev:hover span:after,
+  .swiper-button-next:hover span:after {
+    display: none;
+  }
+}
+/* swiper pagination */
+.swiper-pagination {
+  height: 40px;
+}
+
+.swiper-pagination-bullet {
+  background-color: transparent;
+  border: solid 1px white;
+  opacity: 1;
+  transition: all 0.3s ease-in-out;
+}
+
+.swiper-pagination-bullet:hover {
+  background-color: white;
+}
+
+.swiper-pagination-bullet-active {
+  width: 20px;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+  left: 0;
+  background-color: transparent;
+  border: solid 1px white;
+}
+
+/* text content */
+.slide-text {
+  text-align: center;
+  color: white;
+  opacity: 1;
+  z-index: 2;
+  font-family: "IBM Plex Sans", sans-serif;
+  width: 80%;
+  max-width: 500px;
+}
+
+.slide-text h1 {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 30px;
+  letter-spacing: 0.03em;
+}
+
+.slide-text p {
+  font-size: 16px;
+  font-family: "IBM Plex Mono", monospace;
+  margin-top: 30px;
+}
+
+/* text mobile */
+@media screen and (max-width: 768px) {
+  .slide-text {
+    width: 60%;
+  }
+
+  .slide-text h1 {
+    font-size: 20px;
+    letter-spacing: 0.02em;
+  }
+
+  .slide-text p {
+    font-size: 14px;
+  }
+}
+/* button */
+.slide-text .btn {
+  font-family: "IBM Plex Mono", monospace;
+  background-color: transparent;
+  border: solid 1px white;
+  padding: 15px 30px;
+  min-width: 100px;
+  width: fit-content;
+  font-size: 14px;
+  letter-spacing: 2px;
+  color: white;
+  position: relative;
+  border-radius: 80px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.slide-text .btn:after {
+  content: "";
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  z-index: 2;
+  left: 0px;
+  top: 0px;
+  border-radius: inherit;
+  transition: all 0.3s ease-in-out;
+}
+
+.slide-text .btn:hover::after {
+  left: 4px;
+  top: 5px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.slide-text .btn:hover {
+  font-weight: 800;
+}
+
+@media screen and (max-width: 768px) {
+  .slide-text .btn:hover::after {
+    left: 0px;
+    top: 0px;
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+}
+button:focus {
+  outline: 0;
+}
